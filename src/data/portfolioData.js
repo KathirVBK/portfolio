@@ -70,19 +70,9 @@ export const portfolioData = {
       image: movieImg,
       category: "Web App",
     },
+
     {
       id: 2,
-      title: "Portfolio Website",
-      description:
-        "A modern, responsive portfolio website to showcase skills and projects.",
-      techStack: ["React", "Framer Motion", "Tailwind CSS"],
-      github: "https://github.com/",
-      demo: "portfolio-lqzl.vercel.app",
-      image: portfolioImg,
-      category: "Personal",
-    },
-    {
-      id: 3,
       title: "Expense Tracker",
       description:
         "A simple and interactive productivity app for tracking daily expenses.",
