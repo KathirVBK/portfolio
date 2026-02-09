@@ -58,13 +58,13 @@ export const portfolioData = {
   ],
 
   projects: [
-    
+
     {
       id: 1,
       title: "Movie Search Platform",
       description:
         "A simple frontend project on  movie search platform using React and CSS.",
-      techStack: ["HTML","CSS","REACT"],
+      techStack: ["HTML", "CSS", "REACT"],
       github: "https://github.com/",
       demo: "https://demo.com/",
       image: movieImg,
@@ -77,7 +77,7 @@ export const portfolioData = {
         "A modern, responsive portfolio website to showcase skills and projects.",
       techStack: ["React", "Framer Motion", "Tailwind CSS"],
       github: "https://github.com/",
-      demo: "https://demo.com/",
+      demo: "https://portfolio-lqzl.vercel.app",
       image: portfolioImg,
       category: "Personal",
     },
@@ -86,7 +86,7 @@ export const portfolioData = {
       title: "Expense Tracker",
       description:
         "A simple and interactive productivity app for tracking daily expenses.",
-      techStack: ["HTML","CSS","JAVASCRIPT","REACT"],
+      techStack: ["HTML", "CSS", "JAVASCRIPT", "REACT"],
       github: "https://github.com/",
       demo: "https://demo.com/",
       image: expenseImg,
@@ -111,7 +111,7 @@ export const portfolioData = {
       link: "https://coursera.org/verify/YICEDFDZGEM6",
       image: "https://via.placeholder.com/100",
     },
-     {
+    {
       id: 3,
       title: "AI Workshop",
       organization: "KAMBAA",
