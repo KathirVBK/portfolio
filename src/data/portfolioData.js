@@ -77,7 +77,7 @@ export const portfolioData = {
         "A modern, responsive portfolio website to showcase skills and projects.",
       techStack: ["React", "Framer Motion", "Tailwind CSS"],
       github: "https://github.com/",
-      demo: "https://portfolio-lqzl.vercel.app",
+      demo: "portfolio-lqzl.vercel.app",
       image: portfolioImg,
       category: "Personal",
     },
