@@ -66,7 +66,7 @@ export const portfolioData = {
         "A simple frontend project on  movie search platform using React and CSS.",
       techStack: ["HTML", "CSS", "REACT"],
       github: "https://github.com/",
-      demo: "https://demo.com/",
+      demo: "movie-search-frontend-v32g.vercel.app",
       image: movieImg,
       category: "Web App",
     },
