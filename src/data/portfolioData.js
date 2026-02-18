@@ -24,7 +24,7 @@ export const portfolioData = {
       },
       {
         name: "Email",
-        url: "mail to:kathirvb24@gmail.com",
+        url: "mailto:kathirvb24@gmail.com",
         icon: FaEnvelope,
       },
     ],
@@ -65,8 +65,8 @@ export const portfolioData = {
       description:
         "A simple frontend project on  movie search platform using React and CSS.",
       techStack: ["HTML", "CSS", "REACT"],
-      github: "https://github.com/",
-      demo: "https://movie-search-frontend-v32g.vercel.app/",
+      github: "https://github.com/KathirVBK/movie-search-frontend",
+      demo: "https://movie-search-frontend-rust.vercel.app",
       image: movieImg,
       category: "Web App",
     },
