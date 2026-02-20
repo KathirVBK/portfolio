@@ -1,7 +1,6 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import profileImg from "../assets/vbk.jpg";
-import movieImg from "../assets/movie.png"; // Use your actual filename
-import portfolioImg from "../assets/portfolio.png";
+import movieImg from "../assets/Movie.png"; // Use your actual filename
 import expenseImg from "../assets/expense.png";
 export const portfolioData = {
   personalInfo: {
