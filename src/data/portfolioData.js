@@ -1,7 +1,8 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import profileImg from "../assets/vbk.jpg";
-import movieImg from "../assets/Movie.png"; // Use your actual filename
+import movieImg from "../assets/Movie.png"; 
 import expenseImg from "../assets/expense.png";
+import agriSenseImg from "../assets/agriSense.png";
 export const portfolioData = {
   personalInfo: {
     name: "V.B.Kathir",
@@ -72,6 +73,18 @@ export const portfolioData = {
 
     {
       id: 2,
+      title: "RAG Implenmted Jwelery search",
+      description:
+        "A simple frontend project on  movie search platform using React and CSS.",
+      techStack: ["HTML", "CSS", "REACT"],
+      github: "https://github.com/KathirVBK/movie-search-frontend",
+      demo: "https://movie-search-frontend-rust.vercel.app",
+      image: movieImg,
+      category: "Web App",
+    },
+
+    {
+      id: 3,
       title: "Expense Tracker",
       description:
         "A simple and interactive productivity app for tracking daily expenses.",
@@ -80,6 +93,17 @@ export const portfolioData = {
       demo: "https://demo.com/",
       image: expenseImg,
       category: "Productivity",
+    },
+    {
+      id: 4,
+      title: "AgriSense Precision AI",
+      description:
+        "An intelligent, full-stack AI agricultural advisory platform designed to provide real-time, context-aware scientific guidance for farmers and agricultural professionals. It features a strict expert-mode AI, local Retrieval-Augmented Generation (RAG), live global web search, voice capabilities (STT/TTS), and Firebase authentication, all wrapped in a responsive, modern glassmorphism UI.",
+      techStack: ["React.js", "Firebase", "Python", "FastAPI", "SQLite", "Llama-3"],
+      github: "https://github.com/KathirVBK/AI-AGRICULTURE-ASSISTANT",
+      demo: "https://agrisense-frontend-tbmg.onrender.com/",
+      image: agriSenseImg,
+      category: "AI Web App / AgriTech",
     },
   ],
 
