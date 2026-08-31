@@ -3,6 +3,9 @@ import profileImg from "../assets/vbk.jpg";
 import movieImg from "../assets/movie.png"; 
 import expenseImg from "../assets/expense.png";
 import agriSenseImg from "../assets/agriSense.png";
+import attentionBlogImg from "../assets/attention_blog.jpg";
+import Agents from "../assets/Agents.png";
+import langchain from "../assets/langachain.png";
 export const portfolioData = {
   personalInfo: {
     name: "V.B.Kathir",
@@ -92,6 +95,30 @@ export const portfolioData = {
       image: agriSenseImg,
       category: "AI Web App / AgriTech",
     },
+  ],
+
+  blogs: [
+    {
+      id: 1,
+      title: "Attention Is All You Need : The Transition In The AI Models",
+      description: "An overview of how the attention mechanism revolutionized AI models.",
+      link: "https://lnkd.in/p/gZKcG5MX",
+      image: attentionBlogImg,
+    },
+    {
+      id: 2,
+      title: "Understanding Generative AI Agents: Architecture, Orchestration, and Tool Use in Modern AI Systems",
+      description: "An overview of how the attention mechanism revolutionized AI models.",
+      link: "https://lnkd.in/p/gwsw4YmP",
+      image: Agents,
+    },
+    {
+      id: 3,
+      title: "Meet LangChain: The Framework Powering Today's AI Applications",
+      description: "An overview of how the attention mechanism revolutionized AI models.",
+      link: "https://lnkd.in/p/grmGZ8jS",
+      image: langchain,
+    }
   ],
 
   certifications: [
