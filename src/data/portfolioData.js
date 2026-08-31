@@ -70,21 +70,8 @@ export const portfolioData = {
       image: movieImg,
       category: "Web App",
     },
-
     {
       id: 2,
-      title: "RAG Implenmted Jwelery search",
-      description:
-        "A simple frontend project on  movie search platform using React and CSS.",
-      techStack: ["HTML", "CSS", "REACT"],
-      github: "https://github.com/KathirVBK/movie-search-frontend",
-      demo: "https://movie-search-frontend-rust.vercel.app",
-      image: movieImg,
-      category: "Web App",
-    },
-
-    {
-      id: 3,
       title: "Expense Tracker",
       description:
         "A simple and interactive productivity app for tracking daily expenses.",
@@ -95,7 +82,7 @@ export const portfolioData = {
       category: "Productivity",
     },
     {
-      id: 4,
+      id: 3,
       title: "AgriSense Precision AI",
       description:
         "An intelligent, full-stack AI agricultural advisory platform designed to provide real-time, context-aware scientific guidance for farmers and agricultural professionals. It features a strict expert-mode AI, local Retrieval-Augmented Generation (RAG), live global web search, voice capabilities (STT/TTS), and Firebase authentication, all wrapped in a responsive, modern glassmorphism UI.",
