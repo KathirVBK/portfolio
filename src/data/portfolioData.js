@@ -12,7 +12,7 @@ export const portfolioData = {
     role: "AI Application Developer · AI Engineer · Frontend Developer",
     tagline: "Building intelligent AI systems that can reason, use tools, automate workflows, and turn ideas into real-world applications.",
     image: profileImg,
-    resumeLink: "https://drive.google.com/file/d/1VaMUH6jY6PzJ_8dDT8EAWk0tGK55mBsc/view?usp=drive_link", // Replace with your resume link
+    resumeLink: "/resume.pdf", // Hosted in the public folder
     email: "kathirvb24@gmail.com",
     socials: [
       {
