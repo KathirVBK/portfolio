@@ -9,8 +9,8 @@ import langchain from "../assets/langachain.png";
 export const portfolioData = {
   personalInfo: {
     name: "V.B.Kathir",
-    role: "Frontend Developer, UI/UX Designer & AI Learning Enthusiast",
-    tagline: "Building seamless digital experiences with modern web technologies, Exploring AI technologies",
+    role: "AI Application Developer · AI Engineer · Frontend Developer",
+    tagline: "Building intelligent AI systems that can reason, use tools, automate workflows, and turn ideas into real-world applications.",
     image: profileImg,
     resumeLink: "https://drive.google.com/file/d/1VaMUH6jY6PzJ_8dDT8EAWk0tGK55mBsc/view?usp=drive_link", // Replace with your resume link
     email: "kathirvb24@gmail.com",
@@ -36,27 +36,35 @@ export const portfolioData = {
   about: {
     sectionTitle: "About Me",
     summary:
-      "I am a Frontend Developer and AI Engineer dedicated to building intelligent, user-centric digital experiences. I specialize in crafting high-performance web applications where clean architecture meets sophisticated machine intelligence.My expertise lies in bridging the gap between complex AI-driven systems—such as RAG pipelines and advanced Prompt Engineering—and the end-user. With a deep foundation in UI/UX principles, I focus on transforming intricate AI logic into simple, elegant, and accessible interfaces that deliver real-world impact.",
+      "I am an AI Application Developer and Frontend Engineer passionate about building intelligent software that bridges the gap between complex AI systems and human interaction I work with LLMs, RAG, Prompt Engineering, AI Agents, Multi-Agent Systems, MCP, and modern web technologies to transform ideas into practical AI-powered applications. With a strong foundation in Frontend Development and UI/UX, I focus on making intelligent systems not only powerful, but also intuitive, accessible, and enjoyable to use.I am constantly exploring emerging AI technologies and building systems that move beyond simple chat interfaces toward AI that can reason, use tools, automate workflows, and take meaningful actions.",
     highlights: [
-      "Developing responsive frontend applications",
-      "Adapting with new AI technologies",
-      "Designing user centric interfaces",
+      "Building AI-powered and agentic applications",
+      "Working with LLMs, RAG, Prompt Engineering, AI Agents, Multi-Agent Systems, MCP, and modern web technologies",
+      "Continuously exploring emerging AI technologies",
     ],
     experienceYears: "Fresher",
   },
 
   skills: [
     {
-      category: "Programming",
-      items: ["JavaScript", "Python", "HTML5", "CSS3", "TailwindCSS"],
+      category: "AI & Agentic Systems",
+      items: ["AI Agents", "Multi-Agent Systems", "Model Context Protocol (MCP)", "Voice AI", "RAG", "Prompt Engineering"],
     },
     {
-      category: "Tools & Frameworks",
-      items: ["React", "Next.js", "Tailwind CSS", "Git", "Figma"],
+      category: "LLM & AI Engineering",
+      items: ["LangChain", "LangGraph", "Embeddings", "Vector Databases", "ChromaDB", "FAISS"],
     },
     {
-      category: "AI Technologies",
-      items: ["TensorFlow", "Prompt Engineering", "RAG Technologies"],
+      category: "Frontend Development",
+      items: ["React", "JavaScript", "HTML5", "CSS3"],
+    },
+    {
+      category: "Programming & Database",
+      items: ["Python", "MySQL"],
+    },
+    {
+      category: "Tools & Deployment",
+      items: ["Git", "Render"],
     },
   ],
 
@@ -73,19 +81,9 @@ export const portfolioData = {
       image: movieImg,
       category: "Web App",
     },
+   
     {
       id: 2,
-      title: "Expense Tracker",
-      description:
-        "A simple and interactive productivity app for tracking daily expenses.",
-      techStack: ["HTML", "CSS", "JAVASCRIPT", "REACT"],
-      github: "https://github.com/",
-      demo: "https://demo.com/",
-      image: expenseImg,
-      category: "Productivity",
-    },
-    {
-      id: 3,
       title: "AgriSense Precision AI",
       description:
         "An intelligent, full-stack AI agricultural advisory platform designed to provide real-time, context-aware scientific guidance for farmers and agricultural professionals. It features a strict expert-mode AI, local Retrieval-Augmented Generation (RAG), live global web search, voice capabilities (STT/TTS), and Firebase authentication, all wrapped in a responsive, modern glassmorphism UI.",
