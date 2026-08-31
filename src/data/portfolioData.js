@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import profileImg from "../assets/vbk.jpg";
-import movieImg from "../assets/Movie.png"; 
+import movieImg from "../assets/movie.png"; 
 import expenseImg from "../assets/expense.png";
 import agriSenseImg from "../assets/agriSense.png";
 export const portfolioData = {
