@@ -4,7 +4,6 @@ import { Link } from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import clsx from 'clsx';
 import { motion, AnimatePresence } from 'framer-motion';
-import logoImg from '../assets/logo.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -46,9 +45,10 @@ const Navbar = () => {
                     to="hero"
                     smooth={true}
                     duration={500}
-                    className="cursor-pointer flex items-center"
+                    className="text-2xl font-bold text-white cursor-pointer"
                 >
-                    <img src={logoImg} alt="Logo" className="h-10 w-auto" />
+                    {personalInfo.name.split(' ')[0]}
+                    <span className="text-primary">.</span>
                 </Link>
 
                 {/* Desktop Menu */}
