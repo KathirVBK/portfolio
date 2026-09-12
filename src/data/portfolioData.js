@@ -72,14 +72,14 @@ export const portfolioData = {
 
     {
       id: 1,
-      title: "Movie Search Platform",
+      title: "Policy Buddy",
       description:
-        "A simple frontend project on  movie search platform using React and CSS.",
+        "A PolicyBuddy is a corporate compliance assistant designed to provide employees with quick, reliable, and policy-aligned answers to their work-related questions.",
       techStack: ["HTML", "CSS", "REACT"],
-      github: "https://github.com/KathirVBK/movie-search-frontend",
-      demo: "https://movie-search-frontend-rust.vercel.app",
-      image: movieImg,
-      category: "Web App",
+      github: "https://github.com/KathirVBK/Compilance-and-Policy-Assistant",
+      demo: "https://compilance-and-policy-assistant-frontend.onrender.com",
+      image: policy,
+      category: "AI Web App",
     },
    
     {
@@ -92,6 +92,17 @@ export const portfolioData = {
       demo: "https://agrisense-frontend-tbmg.onrender.com/",
       image: agriSenseImg,
       category: "AI Web App / AgriTech",
+    },
+      {
+      id: 1,
+      title: "Movie Search Platform",
+      description:
+        "A simple frontend project on  movie search platform using React and CSS.",
+      techStack: ["HTML", "CSS", "REACT"],
+      github: "https://github.com/KathirVBK/movie-search-frontend",
+      demo: "https://movie-search-frontend-rust.vercel.app",
+      image: movieImg,
+      category: "Web App",
     },
   ],
 
@@ -126,7 +137,6 @@ export const portfolioData = {
       organization: "Google",
       year: "2024",
       link: "https://coursera.org/verify/GCLV9KQRPDA7",
-      image: "https://via.placeholder.com/100",
     },
     {
       id: 2,
@@ -134,7 +144,6 @@ export const portfolioData = {
       organization: "IBM",
       year: "2025",
       link: "https://coursera.org/verify/YICEDFDZGEM6",
-      image: "https://via.placeholder.com/100",
     },
     {
       id: 3,
@@ -142,7 +151,27 @@ export const portfolioData = {
       organization: "KAMBAA",
       year: "2025",
       link: "https://www.kambaa.in/ai-ignite-certificate/QUlJVzIwMjUwOTAwNjM",
-      image: "https://via.placeholder.com/100",
+    },
+    {
+      id: 4,
+      title: "Prompt Engineering",
+      organization: "Navigate Labs",
+      year: "2026",
+      link: "/Prompt_engineering.pdf",
+    },
+    {
+      id: 5,
+      title: "RAG",
+      organization: "Navigate Labs",
+      year: "2026",
+      link: "/Rag.pdf",
+    },
+    {
+      id: 6,
+      title: "Voice AI",
+      organization: "Navigate Labs",
+      year: "2026",
+      link: "/Voice.pdf",
     },
   ],
 

@@ -33,7 +33,7 @@ const Certifications = () => {
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center text-primary text-sm hover:underline"
                             >
-                                View Credential <FaExternalLinkAlt className="ml-1 text-xs" />
+                                View Certificate <FaExternalLinkAlt className="ml-1 text-xs" />
                             </a>
                         </div>
                     </div>
