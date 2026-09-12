@@ -94,7 +94,7 @@ export const portfolioData = {
       category: "AI Web App / AgriTech",
     },
       {
-      id: 1,
+      id: 3,
       title: "Movie Search Platform",
       description:
         "A simple frontend project on  movie search platform using React and CSS.",
