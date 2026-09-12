@@ -1,11 +1,11 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import profileImg from "../assets/vbk.jpg";
 import movieImg from "../assets/movie.png"; 
-import expenseImg from "../assets/expense.png";
 import agriSenseImg from "../assets/agriSense.png";
 import attentionBlogImg from "../assets/attention_blog.jpg";
 import Agents from "../assets/Agents.png";
 import langchain from "../assets/langachain.png";
+import policy from "../assets/policy.png";
 export const portfolioData = {
   personalInfo: {
     name: "V.B.Kathir",
