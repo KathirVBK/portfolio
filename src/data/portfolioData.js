@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import profileImg from "../assets/vbk.jpg";
+import profileImg from "../assets/profile.png";
 import movieImg from "../assets/movie.png"; 
 import agriSenseImg from "../assets/agriSense.png";
 import attentionBlogImg from "../assets/attention_blog.jpg";
@@ -10,7 +10,7 @@ export const portfolioData = {
   personalInfo: {
     name: "V.B.Kathir",
     role: "AI Application Developer · AI Engineer · Frontend Developer",
-    tagline: "Building intelligent AI systems that can reason, use tools, automate workflows, and turn ideas into real-world applications.",
+    tagline: "AI Application Developer & Frontend Engineer shaping the future of intelligent web apps.",
     image: profileImg,
     resumeLink: "/resume.pdf", // Hosted in the public folder
     email: "kathirvb24@gmail.com",
@@ -36,7 +36,7 @@ export const portfolioData = {
   about: {
     sectionTitle: "About Me",
     summary:
-      "I am an AI Application Developer and Frontend Engineer passionate about building intelligent software that bridges the gap between complex AI systems and human interaction I work with LLMs, RAG, Prompt Engineering, AI Agents, Multi-Agent Systems, MCP, and modern web technologies to transform ideas into practical AI-powered applications. With a strong foundation in Frontend Development and UI/UX, I focus on making intelligent systems not only powerful, but also intuitive, accessible, and enjoyable to use.I am constantly exploring emerging AI technologies and building systems that move beyond simple chat interfaces toward AI that can reason, use tools, automate workflows, and take meaningful actions.",
+      "AI Application Developer and Frontend Engineer passionate about building intelligent software that bridges the gap between complex AI systems and human interaction I work with LLMs, RAG, Prompt Engineering, AI Agents, Multi-Agent Systems, MCP, and modern web technologies to transform ideas into practical AI-powered applications. With a strong foundation in Frontend Development and UI/UX, I focus on making intelligent systems not only powerful, but also intuitive, accessible, and enjoyable to use.I am constantly exploring emerging AI technologies and building systems that move beyond simple chat interfaces toward AI that can reason, use tools, automate workflows, and take meaningful actions.",
     highlights: [
       "Building AI-powered and agentic applications",
       "Working with LLMs, RAG, Prompt Engineering, AI Agents, Multi-Agent Systems, MCP, and modern web technologies",
@@ -75,7 +75,7 @@ export const portfolioData = {
       title: "Policy Buddy",
       description:
         "A PolicyBuddy is a corporate compliance assistant designed to provide employees with quick, reliable, and policy-aligned answers to their work-related questions.",
-      techStack: ["HTML", "CSS", "REACT"],
+      techStack: ["Prompt Enigineering","Python","RAG","HTML", "CSS", "REACT"],
       github: "https://github.com/KathirVBK/Compilance-and-Policy-Assistant",
       demo: "https://compilance-and-policy-assistant-frontend.onrender.com",
       image: policy,
