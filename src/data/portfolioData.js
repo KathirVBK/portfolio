@@ -100,7 +100,7 @@ export const portfolioData = {
       description:
         "An AI-powered platform that automatically generates, grades, and provides feedback on custom quizzes from any topic, text, or PDF.",
       techStack: ["React", "FastAPI", "CrewAI", "Python"],
-      github: "https://github.com/KathirVBK/movie-search-frontend",
+      github: "https://github.com/KathirVBK/Quiz",
       demo: "https://quiz-1-f2ri.onrender.com",
       image: quiz,
       category: "AI Web App / EdTech",
